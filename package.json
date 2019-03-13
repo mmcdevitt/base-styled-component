@@ -8,6 +8,10 @@
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --open --config webpack.dev.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmcdevitt/base-styled-component.git"
+  },
   "author": "",
   "license": "ISC",
   "peerDependencies": {
