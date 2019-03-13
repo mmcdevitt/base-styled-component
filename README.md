@@ -1,6 +1,6 @@
 # Base Styled Component
 
-Something
+Todo: Write readme
 
 ```sh
 npm i base-styled-component
