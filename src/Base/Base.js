@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import validAttr from "@emotion/is-prop-valid";
-import Button from "../Button";
 
 class Base extends React.Component {
   static propTypes = {
@@ -14,8 +13,6 @@ class Base extends React.Component {
     as: "div",
     styling: () => {}
   };
-
-  static Button = Button;
 
   elementType() {
     let elementType = this.props.as;

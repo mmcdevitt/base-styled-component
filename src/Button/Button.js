@@ -3,7 +3,10 @@ import Base from "../Base";
 
 class Button extends React.Component {
   static defaultProps = {
-    as: "button"
+    as: "button",
+    styling: props => {
+      return props.theme.buttonStyles;
+    }
   };
 
   render() {
