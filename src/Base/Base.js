@@ -17,7 +17,7 @@ class Base extends React.Component {
   elementType() {
     let elementType = this.props.as;
 
-    if (this.props.href) {
+    if (typeof elementType === "string" && this.props.href) {
       elementType = "a";
     }
 
